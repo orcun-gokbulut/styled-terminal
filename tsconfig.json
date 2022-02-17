@@ -1,0 +1,44 @@
+{
+    "compilerOptions":
+    {
+        "target": "es5",
+        "module": "commonjs",
+        "baseUrl": "./",
+        "rootDir": "./src",
+        "outDir": "./dist",
+
+        "declaration": true,
+
+        "sourceMap": false,
+        "removeComments": true,
+
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "useUnknownInCatchVariables": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+    },
+    "include":
+    [
+        "src/**/*.ts"
+    ],
+
+    "exclude": [
+        "dist",
+        "node_modules",
+        "src/**/*.test.ts"
+    ]
+}
